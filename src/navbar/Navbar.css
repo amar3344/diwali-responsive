@@ -4,6 +4,7 @@
     .navbar-container{
         display: none;
     }
+    
     .nav-bar-container-sm{
         width: 100%;
        display: flex;
@@ -51,14 +52,6 @@
     .nav-bar-container-sm{
         display: none;
     }
-    .each-item-nav{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        padding: 0px;
-        
-    }
 
     .navbar-container{
         display: flex;
@@ -66,6 +59,15 @@
         width: 80%;
         justify-content: space-between;
         align-items: center;
+    }
+
+    .each-item-nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0px;
+        
     }
     
     
@@ -80,8 +82,8 @@
         border-top-right-radius: 50%;
         border-bottom-left-radius: 50%;
         font-size: 18px;
-        padding: 10px;
-        margin: 0px 5px;
+        padding: 15px;
+        margin: 0px 10px;
         text-align: center;
         font-weight: bold;
         font-family:"Roboto";

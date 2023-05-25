@@ -1,5 +1,8 @@
 import {Box,Button,Typography} from "@mui/material"
 import CardGiftcardIcon from '@mui/icons-material/CardGiftcard';
+import DirectionsBoatIcon from '@mui/icons-material/DirectionsBoat';
+import ReplayIcon from '@mui/icons-material/Replay';
+
 
 import "./DonateGifts.css"
 const DonateAndGifts = () => {
@@ -36,29 +39,29 @@ const DonateAndGifts = () => {
       </Box>
     </Box>
     <Box className="donate-container">
-        <Typography className="donate-font" variant="h3">Donate</Typography>
+        <Typography className="donate-font" sx={{textAlign:"center",padding:"10px 0px",fontSize:"80px",fontFamiliy:"Work Sans",fontWeight:"700"}} variant="h3">Donate</Typography>
         <Box className="left-right-container">
           <img src="https://html.design/demo/diwali/images/banner1_inner.png" alt="" className="donate-image"/>
           <Box>
-            <Box className="gift-freeshipping-easyreturn-card">
-              <CardGiftcardIcon  sx={{fontSize:"50px"}}/>
+            <Box className="gift-freeshipping-easyreturn-card" style={{margin:"10px 0px"}}>
+              <CardGiftcardIcon  sx={{fontSize:"50px"}} className="donate-font"/>
               <Box className="description">
-                <Typography variant="h3">Best Wishes</Typography>
-                <Typography>The tradition was also embraced by retailers, for whom the weeks and, eventually, the entire month before Christmas..</Typography>
+                <Typography variant="h3" className="donate-font">Best Wishes</Typography>
+                <Typography className="donate-font">The tradition was also embraced by retailers, for whom the weeks and, eventually, the entire month before Christmas..</Typography>
               </Box>
             </Box>
-            <Box className="gift-freeshipping-easyreturn-card">
-              <CardGiftcardIcon sx={{fontSize:"50px"}}/>
+            <Box className="gift-freeshipping-easyreturn-card" style={{margin:"10px 0px"}}>
+              <DirectionsBoatIcon sx={{fontSize:"50px"}} className="donate-font"/>
               <Box className="description">
-                <Typography variant="h3">Best Wishes</Typography>
-                <Typography>The tradition was also embraced by retailers, for whom the weeks and, eventually, the entire month before Christmas..</Typography>
+                <Typography variant="h3" className="donate-font">Free Shipping</Typography>
+                <Typography className="donate-font">The tradition was also embraced by retailers, for whom the weeks and, eventually, the entire month before Christmas..</Typography>
               </Box>
             </Box>
-            <Box className="gift-freeshipping-easyreturn-card">
-              <CardGiftcardIcon sx={{fontSize:"50px"}}/>
+            <Box className="gift-freeshipping-easyreturn-card" style={{margin:"10px 0px"}}>
+              <ReplayIcon sx={{fontSize:"50px"}} className="donate-font"/>
               <Box className="description">
-                <Typography variant="h3">Best Wishes</Typography>
-                <Typography>The tradition was also embraced by retailers, for whom the weeks and, eventually, the entire month before Christmas..</Typography>
+                <Typography variant="h3" className="donate-font">Best Wishes</Typography>
+                <Typography className="donate-font">The tradition was also embraced by retailers, for whom the weeks and, eventually, the entire month before Christmas..</Typography>
               </Box>
             </Box>
             <Button variant="outlined">Donate</Button>

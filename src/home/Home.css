@@ -23,9 +23,8 @@
     .home-container{
         background-image: url("https://html.design/demo/diwali/images/bg_diwali.png");
         background-size: cover;
-        width: 100%;
-        height: 100%;
         text-align: center;
+        height: auto;
     }
 
     .home-container-sm{

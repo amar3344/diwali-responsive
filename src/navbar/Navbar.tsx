@@ -1,11 +1,6 @@
 import { Component } from "react"
 import {Box,List,Link} from "@mui/material"
 
-import Home from "../home/Home"
-import Whishes from "../whishes/Whishes"
-import DonateAndGifts from "../donateAndGifts/DonateAndGifts"
-import Contacts from "../contacts/Contacts"
-import BestDeals from "../bestdeals/BestDeals"
 import "./Navbar.css"
 
 
@@ -46,11 +41,11 @@ class Navbar extends Component<IProps,IState>{
       <Box className="navbar-container">
         <img src="https://html.design/demo/diwali/images/logo.png" alt="diwali-logo" className="diwali-logo"/>
         <List className="each-item-nav">
-            <Link className="nav-links">Home</Link>
-            <Link className="nav-links">Whishes</Link>
-            <Link className="nav-links">BestDeals</Link>
-            <Link className="nav-links">DonateGifts</Link>
-            <Link className="nav-links">Contact</Link>
+            <Link underline="none"  className="nav-links">Home</Link>
+            <Link underline="none" className="nav-links">Whishes</Link>
+            <Link underline="none" className="nav-links">BestDeals</Link>
+            <Link underline="none" className="nav-links">DonateGifts</Link>
+            <Link underline="none" className="nav-links">Contact</Link>
         </List>
       </Box>
     </>

@@ -52,7 +52,7 @@ const Contacts = () => {
 
     </Box>
     <Box className="contacts-container">
-        <Typography variant="h6">Contact Us</Typography>
+        <Typography variant="h6" sx={{fontFamily:"Work Sans",fontWeight:"800",color:"#521407",fontSize:"50px"}}>Contact Us</Typography>
         <Box className="contacts-left-right-container">
             <Box className="contacts-left-container">
                 <Box className="address-email-phone-cards">

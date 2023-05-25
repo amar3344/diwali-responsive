@@ -17,6 +17,8 @@
         width: 200px;
         padding: 20px;
     }
+    
+
 
     .span-element{
         color: #999;
@@ -32,6 +34,21 @@
     .deals-container-sm{
         display: none;
     }
+
+    .deals-container{
+        /* margin-bottom: 80px; */
+        text-align: center;
+    }
+
+    .each-watch-container{
+        margin: 10px 0px 0px 0px;
+    }
+
+    .each-watch-image{
+        width: 180px;
+        /* padding: 20px; */
+    }
+    
 }
 
 
@@ -39,3 +56,6 @@
     color: #ffc000;
     width: 20px;
 }
+
+
+
