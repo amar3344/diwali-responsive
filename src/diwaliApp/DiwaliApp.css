@@ -1,0 +1,27 @@
+.react-app{
+    width: 100vw;
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.loading-page{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+
+/* .react-app{
+    width: 100vw;
+    height: 100vh;
+}
+
+@media (max-width:576px){
+    .react-app{
+        display: none;
+    }
+}
+ */

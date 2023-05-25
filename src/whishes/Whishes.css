@@ -1,0 +1,86 @@
+@media (max-width : 576px){
+    .whishes-container{
+        display: none;
+    }
+
+    .deepam-background{
+        background-image: url("https://html.design/demo/diwali/images/fire_work.png");
+        background-size: cover;
+        width: 100%;
+        text-align: center;
+    }
+
+    .deepam{
+        width: 50%;
+    }
+
+    .sm-whishes-container{
+        text-align: center;
+        padding: 16px;
+    }
+
+    .diwali-is-coming{
+        background-image: url("https://html.design/demo/diwali/images/bg_counter.png");
+        width: 100%;
+        text-align: center;
+        padding: 40px 30px;
+    }
+
+    .counter-container-sm{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .each-counter-sm{
+        background-color: gold;
+        padding: 30px;
+        border-radius: 0px 50% 0px 50%;
+        color: #521407;
+        margin: 20px;
+        width: 150px;
+    }
+}
+
+@media (min-width : 576px){
+    .whishes-container-sm{
+        display: none;
+    }
+
+    .whishes-container{
+        background-image: url("https://html.design/demo/diwali/images/fire_work.png");
+        background-size: cover;
+        width: 100%;
+    }
+}
+
+
+
+
+.left-image-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-image-container img{
+    width: 45%;
+    height: 100%;
+    background-size: cover;
+}
+
+
+.timer-container{
+    background-image: url("https://html.design/demo/diwali/images/bg_counter.png");
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.countdown{
+    display: flex;
+    align-items: center;
+}
+

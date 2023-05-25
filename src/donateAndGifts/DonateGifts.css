@@ -1,0 +1,73 @@
+/* for small devices */
+@media (max-width:576px){ 
+    .donate-container{
+        display: none;
+    }
+
+    .donate-container-sm{
+        background-image:url("https://html.design/demo/diwali/images/donate_bg.png");
+        text-align: center;
+        width: 100%;
+        background-size: cover;
+        padding: 30px 20px;
+    }
+
+    .donate-image-sm{
+        width: 300px;
+    }
+
+    .each-logo-description-con{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .each-description{
+        text-align: left;
+        margin: 0px 0px 30px 0px;
+    }
+
+
+}
+
+/* above 576px devices */
+@media (min-width:576px){
+    .donate-container-sm{
+        display: none;
+    }
+
+    .donate-container{
+        background-image:url("https://html.design/demo/diwali/images/donate_bg.png");
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+.left-right-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-image{
+    width: 45%;
+    height: 100%;
+}
+
+.gift-freeshipping-easyreturn-card{
+    display: flex;
+    justify-content: center;
+    margin: 15 0px;
+}
+
+.description{
+    padding: 0px 5px;
+}
+
+.gift-logos{
+    font-size: 10px;
+}
+

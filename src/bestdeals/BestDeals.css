@@ -1,0 +1,41 @@
+/* css for small devices low 576px */
+@media (max-width:576px){
+    .deals-container{
+        display: none;
+    }
+
+    .deals-container-sm{
+        text-align: center;
+        padding:30px 10px;
+    }
+
+    .each-watch-container{
+        margin: 20px 0px 0px 0px;
+    }
+
+    .each-watch-image{
+        width: 200px;
+        padding: 20px;
+    }
+
+    .span-element{
+        color: #999;
+        margin:0px 5px 0px 0px;
+        text-decoration: line-through;
+        font-size: 17px;
+        font-weight: bold;
+        line-height: 24px;
+    }
+}
+
+@media (min-width:576px){
+    .deals-container-sm{
+        display: none;
+    }
+}
+
+
+.star-images{
+    color: #ffc000;
+    width: 20px;
+}

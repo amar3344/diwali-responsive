@@ -1,0 +1,97 @@
+
+@media (max-width:576px){
+
+    .navbar-container{
+        display: none;
+    }
+    .nav-bar-container-sm{
+        width: 100%;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+    }
+
+    .diwali-logo{
+        align-self: center;
+    }
+
+    .menu-bars{
+        width: 50px;
+        height: 40px;
+        background-color: rgb(185, 30, 30);
+        border: 2px solid rgb(185, 30, 30);
+        color: rgb(185, 30, 30);
+        cursor: pointer;
+    }
+    
+    .each-item-nav{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .nav-links{
+        background-color: gold;
+        margin: 20px;
+        border: none;
+        padding: 10px;
+        font-weight: bold;
+        text-align: left;
+        width: 200px;
+        cursor: pointer;
+        
+        
+    }
+    
+    
+}
+
+@media (min-width:576px){
+
+    .nav-bar-container-sm{
+        display: none;
+    }
+    .each-item-nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0px;
+        
+    }
+
+    .navbar-container{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
+    .each-item-nav{
+        align-self: flex-end;
+    }
+    
+    
+    .nav-links{
+        background-color: gold;
+        border: none;
+        border-top-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+        font-size: 18px;
+        padding: 10px;
+        margin: 0px 5px;
+        text-align: center;
+        font-weight: bold;
+        font-family:"Roboto";
+        
+    }
+    
+
+}
+
+
+
+
+

@@ -1,0 +1,36 @@
+@media (max-width:576px){
+    .home-container{
+        display: none;
+    }
+    .home-container-sm{
+        text-align: center;
+    }
+    .home-background-image{
+        width: 100%;
+        height: 200px;
+    }
+    .home-image{
+        width: 100%;
+    }
+
+    .diwali-image-text{
+        width: 200px;
+    }
+}
+
+
+@media (min-width:576px){
+    .home-container{
+        background-image: url("https://html.design/demo/diwali/images/bg_diwali.png");
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .home-container-sm{
+        display: none;
+    }
+
+}
+
