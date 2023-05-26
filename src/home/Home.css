@@ -24,7 +24,7 @@
         background-image: url("https://html.design/demo/diwali/images/bg_diwali.png");
         background-size: cover;
         text-align: center;
-        height: auto;
+        height: 100vh;
     }
 
     .home-container-sm{

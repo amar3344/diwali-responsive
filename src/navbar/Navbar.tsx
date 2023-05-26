@@ -41,11 +41,11 @@ class Navbar extends Component<IProps,IState>{
       <Box className="navbar-container">
         <img src="https://html.design/demo/diwali/images/logo.png" alt="diwali-logo" className="diwali-logo"/>
         <List className="each-item-nav">
-            <Link underline="none"  className="nav-links">Home</Link>
-            <Link underline="none" className="nav-links">Whishes</Link>
-            <Link underline="none" className="nav-links">BestDeals</Link>
-            <Link underline="none" className="nav-links">DonateGifts</Link>
-            <Link underline="none" className="nav-links">Contact</Link>
+            <Link href="#home" underline="none"  className="nav-links">Home</Link>
+            <Link href="#whishes" underline="none" className="nav-links">Whishes</Link>
+            <Link href="#bestDeals" underline="none" className="nav-links">BestDeals</Link>
+            <Link href="#donateGifts" underline="none" className="nav-links">DonateGifts</Link>
+            <Link href="#contacts" underline="none" className="nav-links">Contact</Link>
         </List>
       </Box>
     </>
